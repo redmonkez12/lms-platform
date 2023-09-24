@@ -24,7 +24,7 @@ import { Textarea } from "@/components/ui/textarea";
 interface DescriptionFormProps {
     initialData: Course;
     courseId: string;
-};
+}
 
 const formSchema = z.object({
     description: z.string().min(1, {
